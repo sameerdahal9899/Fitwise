@@ -1,0 +1,12 @@
+# FitWise backend dependencies.
+# Install with:  pip install -r requirements.txt   (add --break-system-packages
+# only if your pip refuses system-wide installs; a virtualenv is recommended
+# instead — see README.md).
+
+Django>=5.0,<5.2
+djangorestframework>=3.15,<3.16
+djangorestframework-simplejwt>=5.3,<5.5
+django-cors-headers>=4.3,<4.5
+django-filter>=24.2,<25.0
+python-dotenv>=1.0,<2.0
+Pillow>=10.3,<11.0
